@@ -1,0 +1,713 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.login__div {
+    width: 90%;
+    height: 570px;
+    padding: 20px 0 0 40px;
+}
+
+.login__title {
+    width: 355px;
+}
+
+.ellipsa {
+    margin-left: 140px;
+}
+
+.google__icon {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.form-control {
+    width: 280px;
+}
+
+input {
+    height: 50px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid #DEDDE4
+}
+
+.name__img {
+    position: absolute;
+    margin: 15px 0 10px 10px;
+}
+
+.show {
+    position: absolute;
+    margin: 15px 0 0 250px;
+    display: none;
+}
+
+.eye {
+    position: absolute;
+    margin: 15px 0 0 250px;
+    display: none;
+}
+
+.checkbox {
+    height: 24px;
+    width: 24px;
+}
+
+.terms {
+    color: #200a79;
+    text-decoration: none;
+}
+
+.google__btn {
+    width: 280px;
+    height: 50px;
+    color: #5D5A6F;
+    background-color: white;
+    border: 1px solid #DEDDE4;
+    border-radius: 5px;
+}
+
+.signup__btn {
+    width: 280px;
+    height: 50px;
+    border: none;
+    background-color: #9C4DF4;
+}
+
+.checkbox__text {
+    margin-top: 30px;
+}
+
+.btn__text {
+    margin-left: 30px;
+}
+
+.btn__link {
+    color: #9C4DF4;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    text-decoration: none;
+}
+
+
+
+/* --------------------- MAIN page ----------------------------- */
+
+.menu {
+    position: absolute;
+    width: 600px;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.153);
+    backdrop-filter: blur(16px);
+    z-index: 222222;
+    transition: all linear 0.8s;
+}
+
+.swipe {
+    transform: translateX(200%);
+}
+
+.nav__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link {
+    color: #0A033C;
+}
+
+.select {
+    border: none;
+}
+
+.cart__img {
+    position: relative;
+    right: 40px;
+}
+
+.accaunt__img {
+    position: relative;
+    right: 40px;
+}
+
+.menu__span {
+    display: none;
+}
+
+.row__div {
+    margin-top: 131px;
+}
+
+.main__span {
+    width: 239px;
+    height: 50px;
+    border-radius: 10px;
+    color: #FF6652;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.main__title {
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.main__text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    width: 580px;
+}
+
+.search__div {
+    width: 607px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.span {
+    width: 100px;
+    height: 30px;
+}
+
+.search__btn {
+    width: 143px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: #9C4DF4;
+}
+
+.search__text {
+    margin: 0 0 0 -150px;
+}
+
+/* --------------------- MAIN page end ----------------------------- */
+
+
+
+/* --------------------- SECTION VISIT ----------------------------- */
+
+.visit__title {
+    height: 110px;
+    width: 556px;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin: 150px 0 0 400px;
+}
+
+.visit__text {
+    height: 90px;
+    width: 840px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.visit__btn {
+    height: 60px;
+    width: 162px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    background-color: #9C4DF4;
+    margin: 0 0 0 580px;
+}
+
+
+/* --------------------- SECTION VISIT end ----------------------------- */
+
+
+/* --------------------- SECTION CLASSES ----------------------------- */
+
+
+.classes__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.classes__chance {
+    height: 100px;
+    width: 333.3333435058594px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.classes__text {
+    margin-left: 50px;
+}
+
+
+
+
+/* --------------------- SECTION CLASSES end ----------------------------- */
+
+
+
+
+
+/* ------------------------ SECTION LESSON ---------------------   */
+
+.lesson__title {
+    margin-top: 160px;
+}
+
+.lesson__text {
+    height: 60px;
+    width: 700px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.lesson__btn--div {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.lesson__btn {
+    background-color: #FF6652;
+    border: none;
+    color: #fff;
+    height: 60px;
+    width: 152px;
+    border-radius: 10px;
+}
+
+.card {
+    width: 290px;
+    height: 329px;
+    border-radius: 15px;
+}
+
+.card__img {
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+.card__text {
+    width: 200px;
+    height: 90px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px auto;
+}
+
+.card__div {
+    margin: auto;
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+
+.card__btn {
+    height: 44px;
+    width: 162px;
+    color: #9C4DF4;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #9C4DF4;
+    background-color: #fff;
+}
+
+.more__btn {
+    height: 60px;
+    width: 202px;
+    border-radius: 10px;
+    background-color: #9C4DF4;
+    border: none;
+    color: #fff;
+    margin: 60px 0 0 500px;
+}
+
+
+.card__bg {
+    background-color: #9C4DF4;
+}
+
+.collage__title {
+    height: 165px;
+    width: 457px;
+    left: 150px;
+    top: 3659px;
+    border-radius: nullpx;
+    font-family: Metropolis;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+
+
+/* ------------------------ SECTION LESSON END ---------------------   */
+
+
+
+
+/* ------------------------ SECTION COLLAGE ---------------------   */
+
+
+.collage__span {
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    color: #9C4DF4;
+    padding: 12px;
+    border: 1px solid #9C4DF4;
+}
+
+.collage__text {
+    height: 90px;
+    width: 500px;
+    left: 150px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.collage__btn {
+    height: 60px;
+    width: 185px;
+    left: 150px;
+    top: 3974px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9C4DF4;
+    color: #fff;
+}
+
+
+
+
+
+
+
+/* ------------------------ SECTION COLLAGE END ---------------------   */
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- RESPONSIVE ---------------------- */
+
+
+@media screen and (max-width: 768px) {
+
+    .card__div {
+        margin-left: 50px;
+    }
+
+    .lesson__btn--div {
+        width: 55%;
+    }
+
+    .classes__div {
+        margin-top: 1px;
+    }
+
+    .classes__img {
+        width: 864px;
+        height: 550px;
+        margin-left: -90px;
+    }
+
+    .classes__chance {
+        width: 241px;
+        height: 84px;
+        margin-left: 10px;
+    }
+
+    .classes__icon {
+        width: 50px;
+    }
+
+    .classes__text {
+        width: 137px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    .visit__title {
+        height: 80px;
+        width: 432px;
+        font-size: 35px;
+        font-weight: 700;
+        margin: 100px 0 0 160px;
+    }
+
+    .visit__text {
+        height: 84px;
+        width: 703px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .visit__btn {
+        height: 50px;
+        width: 149px;
+        border-radius: 5px;
+        margin: 0 0 0 325px;
+    }
+
+    .main__img {
+        height: 447.86236572265625px;
+        width: 427px;
+    }
+
+    .main__span {
+        height: 36px;
+        width: 190px;
+        border-radius: 5px;
+        padding-top: 5px;
+    }
+
+    .main__title {
+        width: 400px;
+        height: 120px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .search__div {
+        width: 370px;
+        height: 50px;
+    }
+
+    .search__text {
+        margin: 0 0 0 -40px;
+    }
+
+    .search__btn {
+        width: 100px;
+    }
+
+    .select {
+        margin: 10px;
+    }
+
+    .nav__div {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .row__div {
+        margin-top: 60px;
+    }
+
+    .menu__span {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .login__div {
+        padding: 20px;
+    }
+
+    .login__title {
+        width: 230px;
+    }
+
+    .login__img {
+        width: 300px;
+    }
+
+    .login__div {
+        width: 700px;
+        margin-left: -100px;
+    }
+
+    .right {
+        width: 300px;
+    }
+
+    .google__btn {
+        width: 250px;
+        height: 50px;
+        margin: auto;
+    }
+
+    .menu__close {
+        width: 50px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .card__div {
+        margin-left: 150px;
+    }
+
+    .lesson__btn--div {
+        width: 70%;
+    }
+
+    .lesson__text {
+        width: 334px;
+        height: 96px;
+    }
+
+    .classes__img {
+        width: 600px;
+        height: 390px;
+        margin: 0 auto;
+    }
+
+    .classes__icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .classes__chance {
+        width: 160px;
+        height: 70px;
+    }
+
+    .classes__text {
+        width: 96px;
+        height: 14px;
+    }
+
+    .visit__title {
+        height: 64px;
+        width: 325px;
+        font-size: 28px;
+        font-weight: 700;
+        margin: 100px 0 0 100px;
+    }
+
+    .visit__text {
+        height: 72px;
+        width: 340px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .visit__btn {
+        height: 50px;
+        width: 162px;
+        border-radius: 5px;
+        margin: 100px 0 0 185px;
+    }
+
+    .main__span {
+        width: 170px;
+        height: 44px;
+        border-radius: 5px;
+        padding-top: 5px;
+    }
+
+    .main__img {
+        margin: 150px 0 0 25px;
+    }
+
+    .search__div {
+        display: block;
+        width: 500px;
+        height: 50px;
+    }
+
+    .search__text {
+        margin: 25px 0 0 -5px;
+        padding: 13px 15px;
+        width: 500px;
+        height: 50px;
+        border-radius: 10px;
+        padding: 13px 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .search__btn {
+        height: 50px;
+        width: 500px;
+        margin: 25px 0 0 0;
+        border-radius: 10px;
+
+    }
+
+    .cart__img {
+        display: none;
+    }
+
+    .accaunt__img {
+        display: none;
+    }
+
+    .select__sm {
+        display: none;
+    }
+
+    .menu {
+        width: 400px;
+    }
+
+    .login__div {
+        height: 620px;
+    }
+
+    .btn__text {
+        width: 100%;
+    }
+
+    .left {
+        display: flex;
+        display: none;
+    }
+
+    .right {
+        margin-left: 100px;
+        padding-left: 70px;
+    }
+
+    .google__text {
+        width: 100%;
+    }
+
+}

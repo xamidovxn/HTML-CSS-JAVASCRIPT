@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- BOOTSTRAP icons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Eduvi - log in</title>
+</head>
+
+<body>
+    <header class="mt-5">
+        <div class="container">
+            <div class="login__div card shadow-lg ps-5 pe-5 pt-4">
+                <div class="row justify-content-between">
+                    <div class="left col-md-4 w-50">
+                        <a href="./signup.html"><img src="./images/Logo.svg" alt="img"></a>
+                        <h2 class="login__title mt-2">Welcome to
+                            Eduvi Online
+                            Learning Platform</h2>
+                        <img class="login__img mt-3" src="./images/platform.jpg" alt="img">
+
+                        <div class="ellipsa">
+                            <img src="./images/Ellipse.svg" alt="img">
+                            <img src="./images/Ellipse-light.svg" alt="img">
+                            <img src="./images/Ellipse.svg" alt="img">
+                        </div>
+                    </div>
+
+                    <div class="right col-md-4">
+
+                        <button class="google__btn d-flex p-2 align-items-center">
+                            <img width="40" src="./images/icon.svg" alt="img">
+                            <p class="ps-3 pt-3">Signup with google</p>
+                        </button>
+
+                        <p class="ms-4 mt-2">-- Or signup with your email --</p>
+
+                        <form class="form" action="#">
+                            <label for="#">
+                                <p class="mb-2">Full name</p>
+                                <img class="name__img" src="./images/Outline.svg" alt="img">
+                                <input class="form-control name input ps-5" type="text" placeholder="Esther Howard">
+                            </label>
+
+                            <label for="#">
+                                <p class="mb-2 mt-3">Email</p>
+                                <img class="name__img" src="./images/email.svg" alt="img">
+                                <input class="form-control email input ps-5" type="email"
+                                    placeholder="bill.sanders@example.com">
+                            </label>
+
+                            <label class="position-relative" for="#">
+                                <p class="mb-2 mt-3">Password</p>
+                                <span><i class="show bi bi-eye"></i> </span>
+                                <span><i class="eye bi bi-eye-slash"></i></span>
+                                <img class="name__img" src="./images/password.svg" alt="img">
+                                <input class="form-control input password ps-5" type="password"
+                                    placeholder="**********">
+                            </label>
+
+
+
+                            <div>
+                                <button class="signup__btn submit text-align-center text-light mt-4">
+                                    Sign In
+                                </button>
+
+                                <div class="login_link d-flex align-items-center">
+                                    <input class="checkbox mt-3" type="checkbox">
+                                    <p class="checkbox__text ms-2">keep me signed in</p>
+                                    
+                                    <div class="mt-3">
+                                        <a class="ms-2 link" href="#">Forgot password?</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </form>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+<script src="./scripts/utils.js"></script>
+<script src="./scripts/script.js"></script>
+
+</html>
