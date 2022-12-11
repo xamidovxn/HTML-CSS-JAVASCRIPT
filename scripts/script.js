@@ -2,12 +2,12 @@
 
 // eve.holt@reqres.in
 
-
 let token = localStorage.getItem("token")
 
 if (token) {
     location.replace("index.html")
 }
+
 
 $('.form').addEventListener('submit', async function (e) {
     

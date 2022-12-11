@@ -1,5 +1,6 @@
 "use strict"
 
+
 $('.menu__span').addEventListener('click', (e) => {
 
     if (e.target.classList.contains('menu__span')) {

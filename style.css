@@ -77,6 +77,10 @@ input {
     border-radius: 5px;
 }
 
+.line {
+    width: 100px
+}
+
 .signup__btn {
     width: 280px;
     height: 50px;
@@ -269,8 +273,6 @@ input {
 }
 
 
-
-
 /* --------------------- SECTION CLASSES end ----------------------------- */
 
 
@@ -348,9 +350,8 @@ input {
     background-color: #9C4DF4;
     border: none;
     color: #fff;
-    margin: 60px 0 0 500px;
+    margin: 60px 0 0 550px;
 }
-
 
 .card__bg {
     background-color: #9C4DF4;
@@ -378,6 +379,15 @@ input {
 
 /* ------------------------ SECTION COLLAGE ---------------------   */
 
+.section__college {
+    background-color: #EDE9F2;
+    padding: 20px;
+    margin-top: 120px;
+}
+
+.collage__top {
+    margin-top: 55px;
+}
 
 .collage__span {
     height: 50px;
@@ -385,45 +395,405 @@ input {
     border-radius: 10px;
     color: #9C4DF4;
     padding: 12px;
+    background-color: #E4E2F4;
     border: 1px solid #9C4DF4;
 }
 
+.collage__title {
+    height: 165px;
+    width: 457px;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
 .collage__text {
+    margin-top: 40px;
     height: 90px;
-    width: 500px;
-    left: 150px;
+    width: 450px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-
 }
 
 .collage__btn {
     height: 60px;
     width: 185px;
-    left: 150px;
-    top: 3974px;
     border-radius: 10px;
     border: none;
     background-color: #9C4DF4;
     color: #fff;
+    margin-top: 40px;
 }
-
-
-
-
 
 
 
 /* ------------------------ SECTION COLLAGE END ---------------------   */
 
 
+/* ------------------------ SECTION MENTOR ---------------------   */
+
+.mentor {
+    margin-top: 150px;
+}
+
+.mentor__title {
+    width: 435px;
+    height: 165px;
+    margin-top: 70px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.mentor__div {
+    margin-left: 100px;
+}
+
+.mentor__text {
+    height: 90px;
+    width: 500px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mentor__btn {
+    height: 60px;
+    width: 204px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #9C4DF4;
+}
 
 
 
 
 
+/* ------------------------ SECTION MENTOR END --------------------- */
+
+
+/* ------------------------ SECTION NEWS --------------------------- */
+
+.news__div {
+    height: 378px;
+    width: 944px;
+    border-radius: 20px;
+    background-color: #0A033C;
+    margin: 100px auto;
+}
+
+.news__div--second {
+    margin: 200px auto;
+}
+
+.news__student {
+    position: relative;
+    left: 50px;
+    top: 61px;
+}
+
+.news__comp {
+    position: relative;
+    top: 166px;
+    left: 70px;
+}
+
+.news__child {
+    position: relative;
+    top: 295px;
+    left: -50px;
+}
+
+.news__title {
+    height: 110px;
+    width: 500px;
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.news__text {
+    height: 30px;
+    width: 493px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.news__input {
+    width: 315px;
+    height: 60px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.news__btn {
+    background-color: #9C4DF4;
+    width: 142px;
+    height: 62px;
+    border: none;
+    margin-left: -15px;
+    border-radius: 0 10px 10px 0;
+}
+
+.student {
+    position: relative;
+    right: -100px;
+    top: 40px;
+}
+
+.comp {
+    position: relative;
+    top: 166px;
+    right: 50px;
+}
+
+.child {
+    position: relative;
+    top: 295px;
+    right: 50px;
+}
+
+/* ------------------------- SECION NEWS END --------------------- */
+
+
+
+/* ------------------------- FOOTER --------------------- */
+
+.footer__ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 35px;
+    list-style: none;
+}
+
+.footer__courses {
+    list-style: none;
+    color: #5D5A6F;
+}
+
+.footer__div {
+    margin-left: 70px;
+}
+
+.footer__more {
+    margin-left: 70px;
+}
+
+.community__div {
+    margin-left: 70px;
+}
+
+.links__div {
+    margin-left: 70px;
+}
+
+.more__div {
+    margin-left: 70px;
+}
+
+/* ------------------------- FOOTER END --------------------- */
+
+
+/* -------------------------- EDUVI BOOK SECTION --------------------- */
+
+.book__div {
+    height: 270px;
+    width: 1250px;
+    border-radius: 20px;
+    background-color: #EFEBF5;
+    padding: 20px;
+
+}
+
+.book__div--link {
+    width: 100px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home__link {
+    color: #0A033C;
+}
+
+.shop__link {
+    color: #9C4DF4;
+}
+
+.book__title {
+    height: 100px;
+    width: 278px;
+    font-size: 45px;
+    text-align: left;
+    margin: 30px 0 0 100px;
+}
+
+.shelver__book {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book__img {
+    margin-right: 100px;
+}
+
+.card__star {
+    margin-top: -10px;
+}
+
+.card__adventure {
+    width: 400px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    margin: 50px 0 0 -25px;
+    padding: 20px;
+}
+
+.star__text {
+    height: 40px;
+    width: 228px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.card__price {
+    color: #FF6652;
+    margin-top: -150px;
+}
+
+
+.btn__see {
+    color: #9C4DF4;
+    text-decoration: none;
+}
+
+.book__btn {
+    width: 131px;
+    height: 60px;
+    padding-top: 16px;
+    background-color: #FF6652;
+    margin: 40px 35px 0 0;
+}
+
+.school__btn {
+    width: 131px;
+    height: 60px;
+    padding-top: 16px;
+    background-color: #fff;
+    margin: 40px 35px 0 0;
+}
+
+.search {
+    height: 60px;
+    width: 555px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.input__div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search__icon {
+    background-color: #9C4DF4;
+    height: 50px;
+    width: 50px;
+    padding: 12px 0 0 17px;
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    right: 430px;
+    top: 508px;
+}
+
+.select__input {
+    height: 60px;
+    width: 350px;
+    margin: 30px 0 0 10px;
+    position: relative;
+    left: 90px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* -------------------------- EDUVI BOOK SECTION END --------------------- */
+
+
+/* -------------------------- POPULAR SECTION -------------------- */
+
+.col__div {
+    margin-top: 40px;
+    gap: 100px;
+}
+
+.new__title {
+    height: 30px;
+    width: 185px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 40px;
+}
+.col__left--title {
+    height: 30px;
+    width: 213px;
+    font-weight: 600;
+}
+
+
+/* -------------------------- POPULAR SECTION END --------------------- */
+
+
+/* -------------------------- CARD__BOOK SECTION -------------------- */
+
+.div__card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 55px;
+    column-gap: 15px;
+}
+
+.card__book {
+    height: 280px;
+    border-radius: 10px;
+    /* margin-right: 15px; */
+}
+
+.card__book--text {
+    height: 20px;
+    width: 195px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.star__price {
+    height: 20px;
+    width: 66px;
+    font-size: 18px;
+    text-align: left;
+    color: #FF6652;
+}
+
+.star__img {
+    margin: -10px 10px 0 0;
+}
+
+.star__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* -------------------------- CARD__BOOK SECTION END -------------------- */
 
 
 
@@ -433,6 +803,194 @@ input {
 
 
 @media screen and (max-width: 768px) {
+
+    .search__icon {
+        display: none;
+    }
+
+    .book__div {
+        height: 270px;
+        width: 700px;
+        border-radius: 20px;
+    }
+
+    .book__img {
+        height: 210px;
+        width: 374px;
+        margin-right: 10px;
+    }
+
+    .book__title {
+        height: 80px;
+        width: 216px;
+        font-size: 35px;
+        font-weight: 600;
+        margin: 30px 0 0 30px;
+    }
+
+    .btn__div {
+        width: 100%;
+    }
+
+    .col__div {
+        gap: 40px;
+    }
+
+    .footer__div {
+        margin-left: 70px;
+    }
+
+    .footer__more {
+        margin-left: -20px;
+    }
+
+    .courses__div {
+        width: 100px;
+        margin-left: 70px;
+    }
+
+    .community__div {
+        margin-left: 10px;
+    }
+
+    .links__div {
+        margin-left: 25px;
+    }
+
+    .more__div {
+        margin-left: 15px;
+    }
+
+    .news__div {
+        height: 378px;
+        width: 700px;
+    }
+
+    .news__title {
+        height: 80px;
+        width: 448px;
+        font-size: 35px;
+        margin-left: -40px;
+    }
+
+    .news__text {
+        height: 28px;
+        width: 300px;
+        margin: 20px 0 0 40px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .news__input {
+        height: 50px;
+        width: 220px;
+        margin-top: 30px;
+    }
+
+    .news__student {
+        left: 15px;
+    }
+
+    .student {
+        left: 80px;
+    }
+
+    .child {
+        top: 220px;
+        left: 70px;
+    }
+
+    .news__comp {
+        left: 15px;
+    }
+
+    .news__child {
+        top: 210px;
+        left: 30px;
+    }
+
+    .news__btn {
+        height: 50px;
+        width: 127px;
+    }
+
+    .mentor {
+        text-align: center;
+    }
+
+    .mentor__img {
+        height: 390px;
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .mentor__div {
+        margin-left: 75px;
+    }
+
+    
+
+    .mentor__title {
+        height: 120px;
+        width: 338px;
+        font-size: 25px;
+        font-weight: 700;
+        margin-left: -45px;
+    }
+
+    .mentor__text {
+        height: 112px;
+        width: 300px;
+        font-weight: 400;
+        margin: -15px 0 0 -30px;
+    }
+
+    .mentor__btn {
+        margin: 35px 0 0 0;
+        height: 50px;
+        width: 186px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .collage__top {
+        margin-top: 35px;
+    }
+
+    .collage__span {
+        height: 40px;
+        width: 160px;
+        border-radius: 5px;
+        padding-top: 7px;
+    }
+
+    .collage__title {
+        font-size: 35px;
+        font-weight: 700;
+        height: 120px;
+        width: 355px;
+        padding-top: 5px;
+    }
+
+    .collage__text {
+        height: 84px;
+        width: 330px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .collage__btn {
+        height: 50px;
+        width: 170px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+
+    .collage__img {
+        margin-top: 20px;
+        height: 390px;
+        width: 360px;
+    }
 
     .card__div {
         margin-left: 50px;
@@ -463,8 +1021,10 @@ input {
     }
 
     .classes__text {
-        width: 137px;
         height: 20px;
+        width: 137px;
+        font-size: 20px;
+        font-weight: 600;
         margin-left: 10px;
     }
 
@@ -567,6 +1127,10 @@ input {
         width: 300px;
     }
 
+    .more__btn {
+        margin-left: 290px;
+    }
+
     .google__btn {
         width: 250px;
         height: 50px;
@@ -580,6 +1144,205 @@ input {
 
 
 @media screen and (max-width: 576px) {
+
+    .book__title {
+        height: 60px;
+        width: 185px;
+        font-size: 30px;
+        margin: 30px 0 0 0;
+        font-weight: 600;
+    }
+
+    .search {
+        height: 50px;
+        width: 335px;
+        border-radius: 5px;
+    }
+
+    .select__input {
+        width: 335px;
+        height: 50px;
+        margin: 20px 0;
+    }
+
+    .input__div {
+        margin: 30px 0 0 100px;
+        display: block;
+    }
+
+    .card__adventure {
+        height: 117px;
+        width: 335px;
+        margin: 0 auto;
+    }
+
+    .btn__div {
+        margin-top: -120px;
+    }
+
+    .col__left--title {
+        margin-left: 90px;
+    }
+
+    .btn__see {
+        margin-left: 100px;
+    }
+
+    .adventure__img {
+        height: 87px;
+        width: 76px;
+        border-radius: 5px;
+    }
+
+    .book__div {
+        height: 295px;
+        width: 510px;
+        border-radius: 10px;
+    }
+
+    .search__icon {
+        display: none;
+    }
+
+    .book__img {
+        height: 100px;
+        width: 185px;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 20px 0 0 50px;
+    }
+
+    .footer__eduvi {
+        width: 170px;
+    }
+
+    .courses__div {
+        margin: 30px 0 0 0;
+    }
+
+    .community__div {
+        margin: 30px 0 0 -30px;
+    }
+
+    .links__div {
+        margin: 30px 0 0 -30px;
+    }
+
+    .more__div {
+        margin: 30px 0 0 -30px;
+    }
+
+    .mentor__title {
+        margin-left: 15px;
+    }
+
+    .mentor__text {
+        margin-left: 30px;
+    }
+
+    .mentor__btn {
+        margin-right: 75px;
+    }
+
+    .news__div {
+        height: 389px;
+        width: 335px;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .news__title {
+        height: 96px;
+        width: 295px;
+        font-size: 28px;
+        font-weight: 700;
+        margin: auto;
+    }
+
+    .news__text {
+        height: 48px;
+        width: 295px;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 20px auto;
+    }
+
+    .news__input {
+        height: 50px;
+        width: 275px;
+        display: block;
+        border-radius: 5px;
+    }
+
+    .news__btn {
+        height: 50px;
+        width: 275px;
+        margin: 15px auto;
+        border-radius: 5px;
+
+    }
+
+    .news__student {
+        display: none;
+    }
+
+    .news__comp {
+        display: none;
+    }
+
+    .news__child {
+        display: none;
+    }
+
+    .student {
+        display: none;
+    }
+
+    .comp {
+        display: none;
+    }
+
+    .child {
+        display: none;
+    }
+
+    .collage__top {
+        padding-left: 130px;
+    }
+
+    .collage__span {
+        height: 44px;
+        width: 121px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        padding-top: 11px;
+    }
+
+    .collage__title {
+        height: 96px;
+        width: 284px;
+        font-size: 28px;
+    }
+
+    .collage__text {
+        height: 144px;
+        width: 293px;
+        font-size: 16px;
+    }
+
+    .collage__btn {
+        height: 50px;
+        width: 150px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .collage__img {
+        width: 300px;
+        height: 285px;
+        margin: 80px 0 0 115px;
+    }
 
     .card__div {
         margin-left: 150px;
@@ -597,7 +1360,11 @@ input {
     .classes__img {
         width: 600px;
         height: 390px;
-        margin: 0 auto;
+        margin: 0 0 0 -40px;
+    }
+
+    .classes__div {
+        display: block;
     }
 
     .classes__icon {
@@ -606,13 +1373,32 @@ input {
     }
 
     .classes__chance {
-        width: 160px;
-        height: 70px;
+        width: 190px;
+        height: 60px;
+    }
+
+    .chance__second {
+        position: relative;
+        left: 285px;
+        top: -60px;
+    }
+
+    .chance {
+        position: relative;
+        top: -30px;
+        width: 220px;
+        margin: 0 auto;
     }
 
     .classes__text {
-        width: 96px;
-        height: 14px;
+        font-size: 14px;
+        font-weight: 600;
+        margin: auto 16px;
+    }
+
+    .classes__text-third {
+
+        margin: auto 25px;
     }
 
     .visit__title {
@@ -621,6 +1407,11 @@ input {
         font-size: 28px;
         font-weight: 700;
         margin: 100px 0 0 100px;
+    }
+
+    .more__btn {
+        margin-left: 190px;
+
     }
 
     .visit__text {
